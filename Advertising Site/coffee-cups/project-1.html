@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jho Jho's Diner • Global USA Publishing</title>
+  <link rel="stylesheet" href="../assets/style.css" />
+  <script defer src="../assets/nav.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="../index.html">
+        <div class="brand-badge"></div>
+        <span>Global USA Publishing</span>
+      </a>
+
+      <div class="nav-links">
+        <div class="dropdown nav-item">
+          <button>Tabletops <span class="caret"></span></button>
+          <div class="dropdown-menu">
+            <a href="../tabletops/project-1.html">Tabletop Project 1 <small>— Sample</small></a>
+            <a href="../tabletops/project-2.html">Tabletop Project 2 <small>— Sample</small></a>
+            <a href="../tabletops/project-3.html">Tabletop Project 3 <small>— Sample</small></a>
+          </div>
+        </div>
+
+        <div class="dropdown nav-item">
+          <button>Menus <span class="caret"></span></button>
+          <div class="dropdown-menu">
+            <a href="../menus/project-1.html">Mema's Family Resturant <small>Satsuma, FL</small></a>
+            <a href="../menus/project-2.html">Pierson Family Resturant <small>Pierson, FL</small></a>
+            <a href="../menus/project-3.html">Menu Project 3 <small>— Sample</small></a>
+          </div>
+        </div>
+
+        <div class="dropdown nav-item">
+          <button>Coffee Cups <span class="caret"></span></button>
+          <div class="dropdown-menu">
+            <a href="../coffee-cups/project-1.html">Jho Jho's Diner <small>Palatka, FL</small></a>
+            <a href="../coffee-cups/project-2.html">Coffee Cup Project 2 <small>— Sample</small></a>
+            <a href="../coffee-cups/project-3.html">Coffee Cup Project 3 <small>— Sample</small></a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="../about.html">About</a>
+        <a class="nav-link" href="../contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="kicker">Coffee Cups</span>
+      <h1>Jho Jho's Diner</h1>
+      <p>
+        Palatka, FL
+      </p>
+    </section>
+
+    <section class="section">
+      <h2 style="margin-top:0;">Project Preview</h2>
+
+      <div class="project-frame">
+        <iframe
+          src="../assets/2026 Jho Jhos Cup.pdf"
+          width="100%"
+          height="650px"
+          style="border:none;">
+        </iframe>
+      </div>
+
+    <div style="margin-top:12px;">
+      <a class="btn" href="../assets/2026 Jho Jhos Cup.pdf" target="_blank">
+        Open / Download PDF
+      </a>
+    </div>
+
+      <div class="project-meta">
+        <div>Placement: <strong style="color:var(--text);">Tabletop</strong></div>
+        <div>Format: <strong style="color:var(--text);">Square / Wrap / Insert</strong></div>
+        <div>Notes: <strong style="color:var(--text);">Add pricing + locations</strong></div>
+      </div>
+
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <a class="btn" href="../index.html">Back to Home</a>
+        <a class="btn" href="../tabletops/project-2.html">Next Project</a>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Global USA Publishing
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

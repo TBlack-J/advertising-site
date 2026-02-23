@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tabletop, Menu & Coffee Cup Advertising</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+  <script defer src="./assets/nav.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand" href="./index.html">
+        <div class="brand-badge"></div>
+        <span>Global USA Publishing</span>
+      </a>
+
+      <div class="nav-links">
+        <div class="dropdown nav-item">
+          <button aria-haspopup="true" aria-expanded="false">
+            Tabletops <span class="caret"></span>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="./tabletops/project-1.html">Tabletop Project 1 <small>— Sample</small></a>
+            <a href="./tabletops/project-2.html">Tabletop Project 2 <small>— Sample</small></a>
+            <a href="./tabletops/project-3.html">Tabletop Project 3 <small>— Sample</small></a>
+          </div>
+        </div>
+
+        <div class="dropdown nav-item">
+          <button aria-haspopup="true" aria-expanded="false">
+            Menus <span class="caret"></span>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="./menus/project-1.html">Menu Project 1 <small>— Sample</small></a>
+            <a href="./menus/project-2.html">Menu Project 2 <small>— Sample</small></a>
+            <a href="./menus/project-3.html">Menu Project 3 <small>— Sample</small></a>
+          </div>
+        </div>
+
+        <div class="dropdown nav-item">
+          <button aria-haspopup="true" aria-expanded="false">
+            Coffee Cups <span class="caret"></span>
+          </button>
+          <div class="dropdown-menu" role="menu">
+            <a href="./coffee-cups/project-1.html">Coffee Cup Project 1 <small>— Sample</small></a>
+            <a href="./coffee-cups/project-2.html">Coffee Cup Project 2 <small>— Sample</small></a>
+            <a href="./coffee-cups/project-3.html">Coffee Cup Project 3 <small>— Sample</small></a>
+          </div>
+        </div>
+
+        <a class="nav-link" href="./about.html">About</a>
+        <a class="nav-link" href="./contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <span class="kicker">Local Advertising • Premium Placement • Annual Plans</span>
+      <h1>Advertising that sits right in front of your customers.</h1>
+      <p>
+        We design and place high-visibility ads across restaurant tabletops, printed menus, and coffee cups.
+        Choose a category above to view example projects.
+      </p>
+    </section>
+
+    <section class="grid" aria-label="Highlights">
+      <article class="card">
+        <h3>Tabletop Advertising</h3>
+        <p>Always in view—great for repeating brand exposure during the meal.</p>
+        <div class="actions">
+          <a class="btn" href="./tabletops/project-1.html">View projects</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Menu Advertising</h3>
+        <p>Capture attention while guests browse food and drinks—perfect timing.</p>
+        <div class="actions">
+          <a class="btn" href="./menus/project-1.html">View projects</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <h3>Coffee Cup Advertising</h3>
+        <p>Ads that travel—your message goes beyond the restaurant and into the community.</p>
+        <div class="actions">
+          <a class="btn" href="./coffee-cups/project-1.html">View projects</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2 style="margin:0 0 6px;">How it works</h2>
+      <p style="margin:0; color: var(--muted);">
+        Pick a placement type → choose a project example → we customize the layout to your business,
+        and publish it across participating locations.
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Global USA Publishing • Tabletop • Menu • Coffee Cup Advertising
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
